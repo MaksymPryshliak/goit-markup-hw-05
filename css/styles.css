@@ -64,7 +64,6 @@ a {
     font-family: 'Raleway';
     font-size: 26px;
     color: #001;
-    /* margin-right: 68px; */
     text-decoration: none;
     display: flex;
 }
@@ -155,7 +154,6 @@ ul {
 
 .uppersite {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/background-header.jpg);
-    /* background-image: url(../img/background-header.jpg); */
     background-repeat: no-repeat;
     background-position: 50%;
     padding: 200px 0;
@@ -188,7 +186,6 @@ ul {
     background: var(--light-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
-    /* transform: scale(1); */
     transition-property: transform;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -382,7 +379,6 @@ ul {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--primary-color);
-    /* padding-top: 94px; */
 }
 
 .card {
@@ -578,12 +574,6 @@ address a {
     margin-top: 10px;
 }
 
-/* .footer-container {
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
-} */
 
 .portfolio_cards {
     min-height: 1360px;
@@ -667,7 +657,7 @@ address a {
     display: block;
 }
 
-.img_wraper{
+.img_wraper {
     position: relative;
     overflow: hidden;
 }
@@ -695,4 +685,3 @@ address a {
 .portfolio-link:focus .portfolio-massage {
     transform: translateY(0%);
 }
-
