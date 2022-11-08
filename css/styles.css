@@ -661,7 +661,8 @@ address a {
     border: 1px solid #eeeeee;
     z-index: 2;
     position: absolute;
-    bottom: 0;
+    bottom: -110px;
+    background-color: var(--light-color);
 }
 
 .port_list_item img {
