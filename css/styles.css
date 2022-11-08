@@ -632,6 +632,7 @@ address a {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 250ms;
 
+
 }
 
 .port_list_item {
@@ -658,6 +659,9 @@ address a {
 .port-title {
     padding: 20px 24px;
     border: 1px solid #eeeeee;
+    z-index: 2;
+    position: absolute;
+    bottom: 0;
 }
 
 .port_list_item img {
@@ -669,26 +673,26 @@ address a {
 }
 
 .portfolio-massage {
-    font-style: normal;
-    font-weight: 400;
     font-size: 18px;
     line-height: 1.5;
     padding: 63px 24px;
     color: var(--light-color);
     background-color: rgba(33, 150, 243, 0.9);
     position: absolute;
-    top: 0;
+    top: 100%;
     left: 0;
     width: 370px;
     height: 294px;
-    opacity: 0;
-    transform: translateY(100%);
-    transition-property: opacity, transform;
+    transition-property: top;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 1;
 }
 
-.port_list_item:hover .portfolio-massage {
-    opacity: 1;
-    transform: translateY(0%);
+.portfolio-link:hover .portfolio-massage {
+    top: 0;
+}
+
+.port_list_item {
+    overflow: hidden;
 }
